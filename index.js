@@ -19,7 +19,7 @@ const io = new Server(server, {
         methods: '*'
     }
 });
-db.sequelize.drop();
+// db.sequelize.drop();
 io.on('connection', async (socket) => {
     socket.on('new_message', async (data) => {
         const { sender, reciever, title, body } = data;
