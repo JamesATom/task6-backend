@@ -37,7 +37,6 @@ io.on('connection', async (socket) => {
          
         messages.findAll({ where: { to: user.id }})
         .then((userMessages) => {
-            console.log(userMessages, 'what a fuck');
             socket.emit('allHisMessages', userMessages);
         })
     });
