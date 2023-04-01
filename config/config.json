@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "sql12610203",
+    "password": "AzskEXB7II",
+    "database": "sql12610203",
+    "host": "sql12.freemysqlhosting.net",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "sql12610203",
+    "password": "AzskEXB7II",
+    "database": "sql12610203",
+    "host": "sql12.freemysqlhosting.net",
+    "dialect": "mysql"
+  }
+}
